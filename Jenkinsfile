@@ -29,7 +29,7 @@ pipeline {
 
           // Run new container in detached mode, name it demo,
           // map host port 8080 -> container port 80
-          sh 'docker run -d --name demo -p 8080:80 demo'
+          sh 'docker run -d --name demo -p 3000:80 demo'
         }
       }
     }
