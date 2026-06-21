@@ -1,10 +1,5 @@
 pipeline {
   agent any
-    // Use any agent that has Docker and the shell executor installed
-    
-    // Or restrict by label/tag, e.g.: label 'shell'
-  
-
   stages {
     stage('build') {
       steps {
